@@ -1,0 +1,322 @@
+
+<ApplicationBuild Config="STM32L152D-EVAL_Audio_Demo" Extern=".\Project.rapp" Header="Project" OutputFile=".\STM32L152D-EVAL_Audio_Demo\Project.elf" Path=".\Project.rapp" sate="98" >
+	<Configs>
+		<Config Header="STM32L152D-EVAL_Audio_Demo" />
+				
+     
+    	
+	</Configs>
+	<Group Header="CMSIS" Marker="-1" OutputFile="" size="0" sate="96" >
+		<NodeC Header="system_stm32l1xx.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\system_stm32l1xx.o" Path="..\src\system_stm32l1xx.c" sate="0" />
+				  	
+	</Group>
+	<Group Header="Doc" Marker="-1" OutputFile="" size="0" sate="96" >
+		<NodeText Header="readme.txt" Marker="-1" OutputFile="" Path="..\readme.txt" sate="0" />
+				  	
+	</Group>
+	<Group Header="RIDE" Marker="-1" OutputFile="" size="0" sate="96" >
+		<NodeASM Header="startup_stm32l1xx_hd.s" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\startup_stm32l1xx_hd.o" Path="..\..\..\Libraries\CMSIS\Device\ST\STM32L1xx\Source\Templates\gcc_ride7\startup_stm32l1xx_hd.s" sate="0" />
+				  	
+	</Group>
+	<Group Header="FatFs" Marker="-1" OutputFile="" size="0" sate="0" >
+		<NodeC Header="ff.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\ff.o" Path="..\..\..\Utilities\Third_Party\FatFs_vR0.08a\ff.c" sate="0" />
+				  	
+	</Group>
+	<Group Header="StdPeriph_Driver" Marker="-1" OutputFile="" size="0" sate="0" >
+		<NodeC Header="misc.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\misc.o" Path="..\..\..\Libraries\stm32l1xx_StdPeriph_Driver\src\misc.c" sate="0" />
+		<NodeC Header="stm32l1xx_adc.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\stm32l1xx_adc.o" Path="..\..\..\Libraries\stm32l1xx_StdPeriph_Driver\src\stm32l1xx_adc.c" sate="0" />
+		<NodeC Header="stm32l1xx_comp.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\stm32l1xx_comp.o" Path="..\..\..\Libraries\stm32l1xx_StdPeriph_Driver\src\stm32l1xx_comp.c" sate="0" />
+		<NodeC Header="stm32l1xx_crc.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\stm32l1xx_crc.o" Path="..\..\..\Libraries\stm32l1xx_StdPeriph_Driver\src\stm32l1xx_crc.c" sate="0" />
+		<NodeC Header="stm32l1xx_dac.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\stm32l1xx_dac.o" Path="..\..\..\Libraries\stm32l1xx_StdPeriph_Driver\src\stm32l1xx_dac.c" sate="0" />
+		<NodeC Header="stm32l1xx_dbgmcu.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\stm32l1xx_dbgmcu.o" Path="..\..\..\Libraries\stm32l1xx_StdPeriph_Driver\src\stm32l1xx_dbgmcu.c" sate="0" />
+		<NodeC Header="stm32l1xx_dma.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\stm32l1xx_dma.o" Path="..\..\..\Libraries\stm32l1xx_StdPeriph_Driver\src\stm32l1xx_dma.c" sate="0" />
+		<NodeC Header="stm32l1xx_exti.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\stm32l1xx_exti.o" Path="..\..\..\Libraries\stm32l1xx_StdPeriph_Driver\src\stm32l1xx_exti.c" sate="0" />
+		<NodeC Header="stm32l1xx_flash.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\stm32l1xx_flash.o" Path="..\..\..\Libraries\stm32l1xx_StdPeriph_Driver\src\stm32l1xx_flash.c" sate="0" />
+		<NodeC Header="stm32l1xx_fsmc.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\stm32l1xx_fsmc.o" Path="..\..\..\Libraries\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_fsmc.c" sate="0" />
+		<NodeC Header="stm32l1xx_gpio.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\stm32l1xx_gpio.o" Path="..\..\..\Libraries\stm32l1xx_StdPeriph_Driver\src\stm32l1xx_gpio.c" sate="0" />
+		<NodeC Header="stm32l1xx_i2c.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\stm32l1xx_i2c.o" Path="..\..\..\Libraries\stm32l1xx_StdPeriph_Driver\src\stm32l1xx_i2c.c" sate="0" />
+		<NodeC Header="stm32l1xx_lcd.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\stm32l1xx_lcd.o" Path="..\..\..\Libraries\stm32l1xx_StdPeriph_Driver\src\stm32l1xx_lcd.c" sate="0" />
+		<NodeC Header="stm32l1xx_opamp.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\stm32l1xx_opamp.o" Path="..\..\..\Libraries\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_opamp.c" sate="0" />
+		<NodeC Header="stm32l1xx_pwr.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\stm32l1xx_pwr.o" Path="..\..\..\Libraries\stm32l1xx_StdPeriph_Driver\src\stm32l1xx_pwr.c" sate="0" />
+		<NodeC Header="stm32l1xx_rcc.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\stm32l1xx_rcc.o" Path="..\..\..\Libraries\stm32l1xx_StdPeriph_Driver\src\stm32l1xx_rcc.c" sate="0" />
+		<NodeC Header="stm32l1xx_rtc.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\stm32l1xx_rtc.o" Path="..\..\..\Libraries\stm32l1xx_StdPeriph_Driver\src\stm32l1xx_rtc.c" sate="0" />
+		<NodeC Header="stm32l1xx_sdio.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\stm32l1xx_sdio.o" Path="..\..\..\Libraries\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_sdio.c" sate="0" />
+		<NodeC Header="stm32l1xx_spi.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\stm32l1xx_spi.o" Path="..\..\..\Libraries\stm32l1xx_StdPeriph_Driver\src\stm32l1xx_spi.c" sate="0" />
+		<NodeC Header="stm32l1xx_syscfg.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\stm32l1xx_syscfg.o" Path="..\..\..\Libraries\stm32l1xx_StdPeriph_Driver\src\stm32l1xx_syscfg.c" sate="0" />
+		<NodeC Header="stm32l1xx_tim.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\stm32l1xx_tim.o" Path="..\..\..\Libraries\stm32l1xx_StdPeriph_Driver\src\stm32l1xx_tim.c" sate="0" />
+		<NodeC Header="stm32l1xx_usart.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\stm32l1xx_usart.o" Path="..\..\..\Libraries\stm32l1xx_StdPeriph_Driver\src\stm32l1xx_usart.c" sate="0" />
+				  	
+	</Group>
+	<Group Header="STM32L152D-EVAL" Marker="-1" OutputFile="" size="0" sate="0" >
+		<NodeC Header="stm32l152d_eval.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\stm32l152d_eval.o" Path="..\..\..\Utilities\STM32_EVAL\STM32L152D_EVAL\stm32l152d_eval.c" sate="0" />
+		<NodeC Header="stm32l152d_eval_audio_codec.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\stm32l152d_eval_audio_codec.o" Path="..\..\..\Utilities\STM32_EVAL\STM32L152D_EVAL\stm32l152d_eval_audio_codec.c" sate="0" />
+		<NodeC Header="stm32l152d_eval_i2c_ee.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\stm32l152d_eval_i2c_ee.o" Path="..\..\..\Utilities\STM32_EVAL\STM32L152D_EVAL\stm32l152d_eval_i2c_ee.c" sate="0" />
+		<NodeC Header="stm32l152d_eval_lcd.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\stm32l152d_eval_lcd.o" Path="..\..\..\Utilities\STM32_EVAL\STM32L152D_EVAL\stm32l152d_eval_lcd.c" sate="0" />
+		<NodeC Header="stm32l152d_eval_sdio_sd.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\stm32l152d_eval_sdio_sd.o" Path="..\..\..\Utilities\STM32_EVAL\STM32L152D_EVAL\stm32l152d_eval_sdio_sd.c" sate="0" />
+				  	
+	</Group>
+	<Group Header="User" Marker="-1" OutputFile="" size="0" sate="96" >
+		<NodeC Header="diskio.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\diskio.o" Path="..\src\diskio.c" sate="0" />
+		<NodeC Header="iddmeasurement.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\iddmeasurement.o" Path="..\src\iddmeasurement.c" sate="0" />
+		<NodeC Header="main.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\main.o" Path="..\src\main.c" sate="0" />
+		<NodeC Header="menu.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\menu.o" Path="..\src\menu.c" sate="0" />
+		<NodeC Header="stm32l1xx_clock_config.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\stm32l1xx_clock_config.o" Path="..\src\stm32l1xx_clock_config.c" sate="0" />
+		<NodeC Header="stm32l1xx_it.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\stm32l1xx_it.o" Path="..\src\stm32l1xx_it.c" sate="0" />
+		<NodeC Header="storage.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\storage.o" Path="..\src\storage.c" sate="0" />
+		<NodeC Header="waveplayer.c" Marker="-1" OutputFile=".\STM32L152D-EVAL_Audio_Demo\waveplayer.o" Path="..\src\waveplayer.c" sate="0" />
+				  	
+	</Group>
+	<Options>
+		<Config Header="Standard" >
+			<Set Header="Target" >
+				<Section Header="ProcessorARM" >
+					<Property Header="Processor" Value="STM32L152xD" />
+																
+				</Section>
+				<Section Header="ToolSetARM" >
+					<Property Header="BuildToolSetARM" Value="ARM\GNU.config" />
+										
+																																																																																																																																														
+								
+				</Section>
+												
+			</Set>
+			<Set Header="ApplicationBuild" >
+				<Section Header="General" >
+					<Property Header="TargetFamily" Value="ARM" />
+										
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																									
+								
+				</Section>
+				<Section Header="Directories" >
+					<Property Header="OutDir" Removable="1" Value="" />
+					<Property Header="ListDir" Removable="1" Value="" />
+					<Property Header="IncDir" Removable="1" Value="" />
+					<Property Header="LinkerOutputDir" Removable="1" Value="Application Directory" />
+										
+																																																																																																																												
+								
+				</Section>
+								
+																																																																																																
+						
+			</Set>
+			<Set Header="GCC" >
+				<Section Header="Defines" >
+					<Property Header="Defines" Removable="1" />
+										
+																																																																																																																												
+								
+				</Section>
+				<Section Header="DEBUG" >
+					<Property Header="DEPENDS" Removable="1" Value="Yes" />
+					<Property Header="DEBUGINFO" Removable="1" Value="-g" />
+					<Property Header="LISTING" Removable="1" Value="" />
+					<Property Header="SIZEINFO" Removable="1" Value="" />
+										
+							
+								
+				</Section>
+				<Section Header="Specific" >
+					<Property Header="FPU" Removable="1" Value="-mfpu=fpv4-sp-d16 -mfloat-abi=soft" />
+										
+																																											
+								
+				</Section>
+				<Section Header="OPTIMIZE" >
+					<Property Header="Optimize" Removable="1" Value="-Os" />
+										
+																																																																						
+								
+				</Section>
+				<Section Header="More" >
+					<Property Header="More" Value="" />
+										
+																																																																						
+								
+				</Section>
+								
+																																																																																																
+						
+			</Set>
+			<Set Header="LD" >
+				<Section Header="Startup" >
+					<Property Header="DEFAULTSTARTUP" Removable="1" Value="No" />
+					<Property Header="File" Removable="1" Value="" />
+										
+																																																																																																																																																																																																																																																	
+								
+				</Section>
+				<Section Header="Scripts" >
+					<Property Header="StarterKitLimit" Removable="1" Value="No" />
+					<Property Header="SCRIPTFILES" Removable="1" Value="Yes" />
+					<Property Header="File" Removable="1" Value="" />
+										
+																																																																																																																																																																																																																																								
+								
+				</Section>
+				<Section Header="Linker" >
+					<Property Header="MAPFILE" Removable="1" />
+										
+							
+								
+				</Section>
+								
+																																																																																																																																																																																				
+						
+			</Set>
+			<Set Header="RLINK_CORTEX" >
+				<Section Header="Advanced" >
+					<Property Header="Crystal" Value="8.000" />
+										
+																																																																																																																			
+								
+				</Section>
+								
+																																																																																									
+						
+			</Set>
+			<Set Header="AS" >
+				<Section Header="Options" >
+					<Property Header="Warnings" Removable="1" Value="" />
+					<Property Header="More" Value="" />
+					<Property Header="Debug" Removable="1" Value="" />
+					<Property Header="LocalLabel" Removable="1" Value="-Wa,-L" />
+										
+																									
+								
+				</Section>
+								
+																			
+						
+			</Set>
+					
+		</Config>
+		<Config Header="STM32L152D-EVAL_Audio_Demo" >
+			<Set Header="Target" >
+				<Section Header="ProcessorARM" >
+					<Property Header="Processor" Value="STM32L152xD" />
+										
+																																																																																																																												
+								
+				</Section>
+				<Section Header="ToolSetARM" >
+					<Property Header="BuildToolSetARM" Value="ARM\GNU.config" />
+										
+																																																																																																																																														
+								
+				</Section>
+								
+																																																																																																
+						
+			</Set>
+			<Set Header="ApplicationBuild" >
+				<Section Header="General" >
+					<Property Header="TargetFamily" Value="ARM" />
+										
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																									
+								
+				</Section>
+				<Section Header="Directories" >
+					<Property Header="OutDir" Removable="1" Value="$(ApplicationDir)\STM32L152D-EVAL_Audio_Demo" />
+					<Property Header="ListDir" Removable="1" Value="$(ApplicationDir)\STM32L152D-EVAL_Audio_Demo" />
+					<Property Header="IncDir" Value=".\..\inc;.\..\..\..\Libraries\CMSIS\Device\ST\STM32L1xx\Include;.\..\..\..\Libraries\STM32L1xx_StdPeriph_Driver\inc;.\..\..\..\Libraries\STM32_USB-FS-Device_Driver\inc;.\..\..\..\Utilities\STM32_EVAL;.\..\..\..\Utilities\STM32_EVAL\Common;.\..\..\..\Utilities\STM32_EVAL\STM32L152D_EVAL;.\..\..\..\Utilities\Third_Party\FatFs_vR0.08a;.\..\..\..\Libraries\CMSIS\Include" Removable="1" />
+					<Property Header="LinkerOutputDir" Removable="1" Value="Application Directory" />
+																
+				</Section>
+												
+			</Set>
+			<Set Header="GCC" >
+				<Section Header="Defines" >
+					<Property Header="Defines" Removable="1" Value="USE_STDPERIPH_DRIVER;STM32L1XX_HD;USE_STM32L152D_EVAL;USB_USE_EXTERNAL_PULLUP;USE_TIMEOUT_USER_CALLBACK" />
+										
+																																																																																																																												
+								
+				</Section>
+				<Section Header="DEBUG" >
+					<Property Header="DEPENDS" Removable="1" Value="Yes" />
+					<Property Header="DEBUGINFO" Removable="1" Value="-g" />
+					<Property Header="LISTING" Removable="1" Value="" />
+					<Property Header="SIZEINFO" Removable="1" Value="" />
+										
+							
+								
+				</Section>
+				<Section Header="Specific" >
+					<Property Header="FPU" Removable="1" Value="-mfpu=fpv4-sp-d16 -mfloat-abi=soft" />
+										
+																																											
+								
+				</Section>
+				<Section Header="OPTIMIZE" >
+					<Property Header="Optimize" Removable="1" Value="-Os" />
+										
+																																																																						
+								
+				</Section>
+				<Section Header="More" >
+					<Property Header="More" Value="" />
+										
+																																																																						
+								
+				</Section>
+								
+																																																																																																
+						
+			</Set>
+			<Set Header="LD" >
+				<Section Header="Startup" >
+					<Property Header="DEFAULTSTARTUP" Removable="1" Value="No" />
+					<Property Header="File" Removable="1" Value="" />
+										
+																																																																																																																																																																																																																																																	
+								
+				</Section>
+				<Section Header="Scripts" >
+					<Property Header="StarterKitLimit" Removable="1" Value="No" />
+					<Property Header="SCRIPTFILES" Removable="1" Value="Yes" />
+					<Property Header="File" Removable="1" Value="" />
+										
+																																																																																																																																																																																																																																								
+								
+				</Section>
+				<Section Header="Linker" >
+					<Property Header="MAPFILE" Removable="1" Value="Yes" />
+										
+							
+								
+				</Section>
+								
+																																																																																																																																																																																				
+						
+			</Set>
+			<Set Header="RLINK_CORTEX" >
+				<Section Header="Advanced" >
+					<Property Header="Crystal" Value="8.000" />
+										
+																																																																																																																			
+								
+				</Section>
+								
+																																																																																									
+						
+			</Set>
+			<Set Header="AS" >
+				<Section Header="Options" >
+					<Property Header="Warnings" Removable="1" Value="NO" />
+					<Property Header="More" Value="" />
+					<Property Header="Debug" Removable="1" Value="" />
+					<Property Header="LocalLabel" Removable="1" Value="-Wa,-L" />
+										
+																									
+								
+				</Section>
+								
+																			
+						
+			</Set>
+					
+		</Config>
+			
+	</Options>
+</ApplicationBuild>

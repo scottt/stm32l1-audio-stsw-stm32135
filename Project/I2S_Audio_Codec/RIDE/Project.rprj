@@ -1,0 +1,6 @@
+
+<Project ActiveApp="Project" Header="Project 'Project'" OutputFile="" Path=".\Project.rprj" Project="Yes" sate="96" >
+	<ApplicationBuild Config="STM32L152D-EVAL_Audio_Demo" Extern=".\Project.rapp" Header="Project" OutputFile=".\STM32L152D-EVAL_Audio_Demo\Project.elf" Path=".\Project.rapp" sate="98" />
+		
+
+</Project>
